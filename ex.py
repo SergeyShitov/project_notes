@@ -6,7 +6,7 @@ class Note:
     id: str
     title: str
     text: str
-    data_time = str
+    data_time: str
 
     def __init__(self, id, title, text, data_time):
         self.id = id
